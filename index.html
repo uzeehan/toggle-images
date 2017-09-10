@@ -13,7 +13,17 @@
 </head>
 
 <body>
-
+    <h1>This is a toggle-image-jquery example</h1>
     
+    <div class="toggle down-arrow"></div>
+                
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.toggle').on('click', function(){
+                $('.toggle').toggleClass('up-arrow down-arrow');
+            });
+        });
+    </script>
 </body>
 </html>
