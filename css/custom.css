@@ -27,3 +27,42 @@ h1{
 .down-arrow{
     background-image: url('../images/down-arrow.png');
 }
+
+/********************
+        Media
+********************/
+@media screen and (max-width: 426px){
+    h1{
+        font-size: 28px;
+        margin-top: 140px;
+    }
+    
+    .toggle{
+        width: 140px;
+        height: 140px;       
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 736px){
+    h1{
+        font-size: 30px;
+        margin-top: 68px;
+    }
+    
+    .toggle{
+        width: 140px;
+        height: 140px;       
+    }    
+}
+
+@media screen and (min-width: 480px) and (max-width: 520px){
+    h1{
+        font-size: 28px;
+        margin-top: 44px;
+    }
+    
+    .toggle{
+        width: 140px;
+        height: 140px;       
+    }       
+}
